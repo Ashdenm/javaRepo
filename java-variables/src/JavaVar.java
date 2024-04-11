@@ -23,7 +23,7 @@ public class JavaVar {
 
         //with our current allowance, how many battle passes will we be able to buy?
 
-        while (allowance > battlepass) {
+        while (allowance > battlepass) { //loop the code below until you have less money than the battlepasses cost
             allowance = allowance - battlepass; //new allowance = old allowance - cost of pass;
             bpamount++; //increase amount of passes owned by 1;
         }
